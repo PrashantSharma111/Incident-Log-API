@@ -46,6 +46,15 @@ The server will now be running at http://localhost:8000.
 ###📚 API Endpoints
 
 ```bash
+<<<<<<< HEAD
+=======
+npm run dev
+The server will now be running at http://localhost:5000.
+
+---
+
+📚 API Endpoints
+>>>>>>> 03fec821b40a69fb13cce6bbdc4129d8c0d1aa31
 1. GET /incidents - Get all incidents
 Fetches a list of all incidents stored in the database.
 
@@ -189,8 +198,11 @@ incident-log-api/
 
 💡 Final Thoughts
 This API is a simple yet powerful tool for tracking incidents related to AI safety. The robust setup allows for easy integration and extension, making it a great starting point for more advanced incident tracking systems.
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> 03fec821b40a69fb13cce6bbdc4129d8c0d1aa31
