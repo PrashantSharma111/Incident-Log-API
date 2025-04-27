@@ -48,6 +48,7 @@ Once everything is set up, start the server using the command:
 npm run dev
 The server will now be running at http://localhost:5000.
 
+---
 
 📚 API Endpoints
 1. GET /incidents - Get all incidents
