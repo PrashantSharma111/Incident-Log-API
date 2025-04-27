@@ -47,6 +47,8 @@ The server will now be running at http://localhost:8000.
 
 ##📚 API Endpoints
 
+```bash 
+
 1. GET /incidents - Get all incidents
 Fetches a list of all incidents stored in the database.
 
@@ -137,6 +139,7 @@ Hit Send to delete the incident.
 
 ```
 
+
 ---
 
 
@@ -169,6 +172,7 @@ Incident Data Structure: The incidents are stored with the following fields: tit
 Error Handling: All endpoints include error handling to respond with a proper message when issues arise, such as missing required fields or failed database connections.
 
 ```
+
 
 ---
 
