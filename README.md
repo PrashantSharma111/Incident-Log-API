@@ -166,15 +166,32 @@ MongoDB Atlas:
 
 MONGO_URI=mongodb+srv://<your-username>:<your-password>@cluster0.mongodb.net/incidents?retryWrites=true&w=majority
 
-📖 Design Decisions & Challenges
+```
+
+---
+
+
+##📖 Design Decisions & Challenges
+
+```bash
 Incident Data Structure: The incidents are stored with the following fields: title, description, severity, and reportedAt. The severity is restricted to three options: Low, Medium, and High.
 
-Error Handling: All endpoints include error handling to respond with a proper message when issues arise, such as missing required fields or failed database connections.
+```
+
+---
+
+
+
+##Error Handling
+
+```bash
+All endpoints include error handling to respond with a proper message when issues arise, such as missing required fields or failed database connections.
 
 ```
 
 
 ---
+
 
 ##📦 Project Structure
 
