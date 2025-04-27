@@ -217,4 +217,8 @@ incident-log-api/
 ---
 
 💡 **Final Thoughts**
+
+```bash
 This API is a simple yet powerful tool for tracking incidents related to AI safety. The robust setup allows for easy integration and extension, making it a great starting point for more advanced incident tracking systems.
+
+```
