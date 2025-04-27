@@ -34,7 +34,6 @@ npm install
 PORT=5000
 MONGO_URI=your_mongodb_connection_uri_here
 
-
 ---
 
 4. Run the Sever
@@ -43,18 +42,11 @@ The server will now be running at http://localhost:8000.
 
 ```
 
-###📚 API Endpoints
-
-```bash
-<<<<<<< HEAD
-=======
-npm run dev
-The server will now be running at http://localhost:5000.
-
 ---
 
-📚 API Endpoints
->>>>>>> 03fec821b40a69fb13cce6bbdc4129d8c0d1aa31
+
+##📚 API Endpoints
+
 1. GET /incidents - Get all incidents
 Fetches a list of all incidents stored in the database.
 
@@ -95,11 +87,12 @@ URL: http://localhost:8000/incidents/:id
 
 Replace :id with the actual incident ID.
 
-
 ```
+
 ---
 
-###🧑‍💻 Using Postman to Test the API
+
+##🧑‍💻 Using Postman to Test the API
 
 ```bash
 
@@ -146,7 +139,8 @@ Hit Send to delete the incident.
 
 ---
 
-###📝 Insert Sample Data
+
+##📝 Insert Sample Data
 
 ```bash
 To populate your database with sample incidents, use the POST request as shown in the Create an Incident example above. This will create a new incident and store it in the database.
@@ -178,7 +172,9 @@ Error Handling: All endpoints include error handling to respond with a proper me
 
 ---
 
-###📦 Project Structure
+##📦 Project Structure
+
+```bash
 Here’s the structure of the project:
 
 incident-log-api/
@@ -194,15 +190,10 @@ incident-log-api/
 ├── package.json                  # Project dependencies and scripts
 └── README.md                     # Documentation for the project
 
+```
+
+
 ---
 
 💡 Final Thoughts
 This API is a simple yet powerful tool for tracking incidents related to AI safety. The robust setup allows for easy integration and extension, making it a great starting point for more advanced incident tracking systems.
-<<<<<<< HEAD
-
-
-
-
-
-=======
->>>>>>> 03fec821b40a69fb13cce6bbdc4129d8c0d1aa31
