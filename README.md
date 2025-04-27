@@ -45,7 +45,7 @@ The server will now be running at http://localhost:8000.
 ---
 
 
-##📚 API Endpoints
+##📚 **API Endpoints**
 
 ```bash 
 
@@ -94,7 +94,7 @@ Replace :id with the actual incident ID.
 ---
 
 
-##🧑‍💻 Using Postman to Test the API
+##🧑‍💻 **Using Postman to Test the API**
 
 ```bash
 
@@ -143,7 +143,7 @@ Hit Send to delete the incident.
 ---
 
 
-##📝 Insert Sample Data
+##📝 **Insert Sample Data**
 
 ```bash
 To populate your database with sample incidents, use the POST request as shown in the Create an Incident example above. This will create a new incident and store it in the database.
@@ -171,7 +171,7 @@ MONGO_URI=mongodb+srv://<your-username>:<your-password>@cluster0.mongodb.net/inc
 ---
 
 
-##📖 Design Decisions & Challenges
+##📖 **Design Decisions & Challenges**
 
 ```bash
 Incident Data Structure: The incidents are stored with the following fields: title, description, severity, and reportedAt. The severity is restricted to three options: Low, Medium, and High.
@@ -182,7 +182,7 @@ Incident Data Structure: The incidents are stored with the following fields: tit
 
 
 
-##Error Handling
+##**Error Handling**
 
 ```bash
 All endpoints include error handling to respond with a proper message when issues arise, such as missing required fields or failed database connections.
@@ -193,7 +193,7 @@ All endpoints include error handling to respond with a proper message when issue
 ---
 
 
-##📦 Project Structure
+##📦 **Project Structure**
 
 ```bash
 Here’s the structure of the project:
@@ -216,5 +216,5 @@ incident-log-api/
 
 ---
 
-💡 Final Thoughts
+💡 **Final Thoughts**
 This API is a simple yet powerful tool for tracking incidents related to AI safety. The robust setup allows for easy integration and extension, making it a great starting point for more advanced incident tracking systems.
