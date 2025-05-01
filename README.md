@@ -31,7 +31,7 @@ npm install
 ---
 
 3. Setup Environment Variables
-PORT=5000
+PORT=8000
 MONGO_URI=your_mongodb_connection_uri_here
 
 ---
